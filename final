@@ -1,0 +1,61 @@
+// ================================================
+// Module: Values, Data Types, and Operations
+// Skill: Storing and using strings/numbers
+// ================================================
+
+// Define kickboxing style details
+const style = "Muay Thai"; // String data type
+const durationMinutes = 30; // Number data type
+console.log(`Style: ${style}, Duration: ${durationMinutes} mins`);
+
+// ================================================
+// Module: Stringing Characters Together
+// Skill: Using template literals
+// ================================================
+
+// Create a workout summary message
+const workoutSummary = `${style} Workout: ${durationMinutes} minutes of intense practice!`;
+console.log(workoutSummary);
+
+// ================================================
+// Module: Control Structures and Logic
+// Skill: Using if/else statements
+// ================================================
+
+// Check if the user is ready for advanced workouts
+const userExperience = "Intermediate";
+if (userExperience === "Intermediate" || userExperience === "Advanced") {
+  console.log("Try our advanced combo drills!");
+} else {
+  console.log("Start with beginner-friendly tutorials.");
+}
+
+// ================================================
+// Module: Building Arrays
+// Skill: Creating arrays of workout data
+// ================================================
+
+// List of kickboxing workouts
+const workouts = ["Jab-Cross Combo", "Roundhouse Kicks", "Knee Strikes"];
+console.log("Available Workouts:", workouts);
+
+// ================================================
+// Module: Using Arrays
+// Skill: Iterating with loops
+// ================================================
+
+// Display each workout with a warm-up time
+for (let i = 0; i < workouts.length; i++) {
+  console.log(`Workout ${i + 1}: ${workouts[i]} (Warm-up: 5 mins)`);
+}
+
+// ================================================
+// Module: Working with Loops
+// Skill: Using for loops to repeat actions
+// ================================================
+
+// Simulate a 3-round timer
+console.log("3-2-1... Start!");
+for (let round = 1; round <= 3; round++) {
+  console.log(`Round ${round}: Fight!`);
+}
